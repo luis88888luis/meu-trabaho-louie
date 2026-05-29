@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 2.5;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    font-style: normal;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+
+
+.cabeçalho {
+    position: sticky;
+    height: 900px;
+    padding: 60px 0;
+    text-align: center;
+    top: 0;
+    width: 20%;
+    background-color: #f8f9fa;
+}
+
+.profileft-autor {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 15px 0;
+}
+
+.LouieS {
+    color: black;
+    cursor: pointer;
+}
+
+.lista-home {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    padding: 30px 0;
+    font-weight: bold;
+    gap: 30px;
+}
+
+.home2 {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    transition: 0.5s ease;
+}
+
+.home2hbaa {
+    text-decoration: underline 1px solid;
+    color: black;
+}
+
+.ativo {
+    color: black;
+    text-decoration: underline 1px solid;
+}
+
+.nws-email {
+    padding: 250px 0;
+}
+
+.enter-email-adress {
+    border: 1px solid #ece4d5;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 400;
+    height: 50px;
+    width: 200px;
+    outline: 0;
+}
+
+.aviao-de-papel {
+    position: absolute;
+    left: 255px;
+    top: 860px;
+    width: 25px;
+    height: 25px;
+    fill: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.direita {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.sec01 {
+    background-color: #f8f9fa;
+    display: flex;
+    width: 100%;
+}
+
+.esquerda-direita {
+    width: 50%;
+    margin: auto;
+}
+
+.img-autor-principal {
+    width: 762px;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.direita-direita {
+    margin: auto;
+    width: 50%;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.hello-im {
+    color: #bfbfbf;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    left: 1200px;
+    top: 125px;
+}
+
+.titulo-Louie {
+    color: #ededed;
+    margin-left: 17px;
+    z-index: -1;
+    font-size: 70px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.texto-com-dourado {
+    margin-left: 60px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.paragrafo-photo {
+    margin-left: 60px;
+    margin-top: 30px;
+    color: #999999;
+    line-height: 1.8;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.assinatura {
+    margin-left: 60px;
+    margin-top: 30px;
+    font-family: "Herr Von Muellerhoff";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.rede-social {
+    display: flex;
+}
+
+.icone-redeSocial {
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 35px;
+    height: 30%;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+
+}
+
+.sec02 {
+    background-color: #242423;
+    width: 100%;
+    padding: 6em 0;
+    div {
+        margin-left: 200px;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    h2{
+        color: #ccb78f;
+        font-weight: 400;
+        font-size: 40px;
+        font-family: "Montserrat", sans-serif;
+    }
+    h4{
+        font-size: 16px;
+        line-height: 1.8;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.7);
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
+.sec03 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 100%;
+    margin-left: 150px;
+}
+
+.follow-me {
+    text-align: center;
+
+    h3 {
+        font-size: 16px;
+    }
+}
+
+.flex-na-imagem {
+    display: flex;
+     .image-overlay {
+        position: relative;
+        cursor: zoom-in;
+    }
+    .overlay {
+    position: relative;
+    top: -237px;
+    left: 4px;
+    width: 96%;
+    height: 56%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.ig-overlay{
+    width: 50px;
+    height: 50px;
+    fill: white;
+}
+.overlay:hover {
+    opacity: 1;
+}
+}
+
+.img-insta {
+    padding: 40px 0;
+    object-fit: cover;
+    width: 240px;
+    height: 200px;
+    cursor: zoom-in;
+}
+
+.secRodapé {
+    background-color: #242423;
+    padding: 4em 0;
+    width: 100%;
+}
+
+.listas-rodapé {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+
+    h6 {
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 3px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    ul {
+        width: 30%;
+    }
+
+    .categoria {
+        font-size: 14px;
+        font-family: "Montserrat", sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        color: #888;
+        padding: 10px 0;
+        border-bottom: 1px solid #333;
+    }
+
+    .texto {
+        color: #888;
+        font-weight: 600;
+    }
+
+    .numero {
+        color: white;
+    }
+
+    .lista-contato {
+        list-style: none;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .item-contato {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 12px;
+        position: relative;
+        top: 20px;
+    }
+
+
+    .texto-contato {
+        color: #a3a3a3;
+        font-size: 15px;
+        font-weight: 600;
+        font-size: 13px;
+        margin-left: 15px;
+    }
+
+    .clicavel {
+        color: white;
+        text-decoration: none;
+    }
+
+    .icone {
+        fill: white;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.grade-img {
+    display: flex;
+    padding: 20px 0;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.imgNaGrade {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.copyright {
+    padding: 50px 0;
+    width: 75%;
+    margin: auto;
+
+    p {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .heart {
+        width: 20px;
+        fill: rgba(255, 255, 255, 0.5);
+    }
+
+    .colorlib {
+        color: rgba(255, 255, 255, 0.5);
+        text-decoration: none;
+        transition: 0.3s ease;
+    }
+
+    .colorlib:hover {
+        color: white;
+    }
+}
